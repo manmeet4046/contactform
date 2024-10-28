@@ -1,0 +1,25 @@
+{
+    "name": "sagacious/contactform",
+    "description": "Simpe contact form laravel",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sagacious\\Contactform\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Sagacious\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Sagacious ESystems"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
